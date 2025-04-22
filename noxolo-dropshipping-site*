@@ -1,1 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noxolo Nyatela | Dropshipping Store</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      background-color: #f9d5e5; /* 🍥 Baby pink background */
+      color: #000;
+    }
 
+    header, footer {
+      background-color: #cbaacb; /* 💜 Soft purple for headers/footers */
+      padding: 10px;
+      text-align: center;
+      border-bottom: 2px solid #a682a6;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .window {
+      background-color: #ffffff;
+      border: 2px solid #cbaacb;
+      margin: 20px auto;
+      max-width: 1000px;
+      padding: 20px;
+      box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .hero {
+      background-color: #f3c6e0;
+      padding: 40px;
+      text-align: center;
+      border: 2px inset #cbaacb;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #6a3e6a;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #4b244a;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      font-size: 22px;
+      border-bottom: 1px solid #cbaacb;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #8e4585;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product {
+      background-color: #fff;
+      border: 1px solid #cbaacb;
+      width: 300px;
+      padding: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #d4a5d4;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      color: #7b3f75;
+    }
+
+    .product p.price {
+      color: #007700;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      padding: 10px;
+      background-color: #cbaacb;
+      color: white;
+      border: 2px outset #a682a6;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #a682a6;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #cbaacb;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #cbaacb;
+      background-color: #fdf1f7;
+      font-family: monospace;
+    }
+
+    form button {
+      background-color: #cbaacb;
+      color: white;
+      border: 2px outset #a682a6;
+      padding: 10px;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #a682a6;
+    }
+
+    footer p {
+      font-size: 14px;
+      margin: 5px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    /* Service Section */
+    #services {
+      background-color: #fdf1f7;
+      padding: 30px 20px;
+      border: 1px solid #d8b2d8;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    #services h2 {
+      font-size: 24px;
+      color: #8e4585;
+    }
+
+    #services p {
+      font-size: 16px;
+      margin: 10px auto;
+      max-width: 600px;
+      color: #4a234a;
+    }
+
+    #services a {
+      color: #7b3f75;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #services a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Noxolo Nyatela</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="window">
+    <div class="hero">
+      <h2>Welcome to My Store</h2>
+      <p>Your one-stop dropshipping hub for beauty, healthcare, and clothing essentials</p>
+    </div>
+
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <p>Hi, I’m Noxolo Nyatela — entrepreneur, mom, and founder of this dropshipping store. I'm passionate about bringing you top-quality products in the world of beauty, healthcare, and clothing, all delivered right to your door. From skincare essentials to trendy outfits, I’ve got you covered!</p>
+    </section>
+
+    <section class="section" id="shop">
+      <h2>Shop Now</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://media.takealot.com/covers_images/f12e41b9d6404138a20d77fd2a2e372c/s-zoom.file" alt="Slim Tea for Belly">
+          <h3>Slim Tea for Belly</h3>
+          <p>Beauty</p>
+          <p class="price">R100</p>
+          <a href="https://pay.yoco.com/r/4WVyNP" target="_blank">
+            <button class="button">Buy Now</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Me</h2>
+      <p>Fill in your details and I'll get in touch. 🚚 <em>Deliveries made via <strong>Pep Stores (PAXI)</strong>.</em></p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Your Cellphone Number" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <input type="text" placeholder="Pick-up Location (Pep/PAXI Store Address)" required>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Need a Website or Programming Help?</h2>
+      <p>Besides running this amazing store, I also create beautiful websites like this one 💻 and offer one-on-one programming lessons 👩🏽‍💻. Whether you're starting a business or want to learn how to code, I can help you step-by-step.</p>
+      <p><strong>Get in touch:</strong> <a href="mailto:nyatelanoxolo06@gmail.com">nyatelanoxolo06@gmail.com</a> or WhatsApp me at <a href="tel:+27605623095">060 562 3095</a>.</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Noxolo Nyatela Dropshipping Store. All rights reserved.</p>
+    <p>Email: <a href="mailto:nyatelanoxolo06@gmail.com">nyatelanoxolo06@gmail.com</a> | Phone: <a href="tel:+27605623095">060
